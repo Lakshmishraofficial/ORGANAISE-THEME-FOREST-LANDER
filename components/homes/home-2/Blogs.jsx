@@ -86,7 +86,7 @@ export default function Blogs() {
                 </div>
               </div>
               <Link
-                href={`/blog`}
+                href="#"
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
               >
                 <span>View more articles</span>

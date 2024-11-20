@@ -55,7 +55,7 @@ export default function Pricing() {
                           <p className="desc lg:fs-5">{plan.description}</p>
                           <Link
                             className="btn btn-md lg:btn-lg btn-primary text-white rounded-default w-100 mt-2"
-                            href={`/sign-up`}
+                            href="#"
                           >
                             <span>{plan.linkText}</span>
                           </Link>

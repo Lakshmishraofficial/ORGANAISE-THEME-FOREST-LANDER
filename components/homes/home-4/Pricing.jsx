@@ -77,7 +77,7 @@ export default function Pricing() {
                         <footer className="tier-footer p-3 md:p-4 border-top">
                           <Link
                             className="btn btn-md btn-primary text-white rounded-default w-100"
-                            href={"/sign-up"}
+                            href="#"
                           >
                             <span>{tier.buttonText}</span>
                           </Link>

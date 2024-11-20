@@ -55,7 +55,7 @@ export default function Pricing() {
                             </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">
                               <Link
-                                href={"/sign-up"}
+                                href="#"
                                 className="btn btn-md sm:btn-sm lg:btn-md btn-primary text-white"
                               >
                                 {tier.buttonLabel}

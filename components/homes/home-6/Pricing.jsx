@@ -73,7 +73,7 @@ export default function Pricing() {
                           />
                           <Link
                             className={`btn btn-md lg:btn-lg ${tier.buttonClass} w-100 mt-2`}
-                            href={`/sign-up`}
+                            href="#"
                           >
                             <span>Get started</span>
                           </Link>

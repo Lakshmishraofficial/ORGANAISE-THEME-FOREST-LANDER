@@ -48,7 +48,7 @@ export default function SignIn2() {
           </div>
           <p>
             Have no account yet?
-            <Link className="uc-link" href={`/sign-up-2`}>
+            <Link className="uc-link" href="#">
               Sign up
             </Link>
           </p>
