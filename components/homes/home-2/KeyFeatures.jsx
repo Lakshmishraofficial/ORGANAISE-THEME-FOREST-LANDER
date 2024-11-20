@@ -51,7 +51,7 @@ export default function KeyFeatures() {
                 </div>
               </div>
               <Link
-                href={`/page-features`}
+                href="#"
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
                 style={{
                   transform: "translateY(0.0097341px)",
