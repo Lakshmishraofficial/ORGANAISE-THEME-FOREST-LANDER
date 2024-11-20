@@ -1,0 +1,15 @@
+/* Import uni-core components */
+@import url("./uni-core.min.css");
+
+/* Import additional styles */
+@import url("./unicons.min.css");
+@import url("./prettify.min.css");
+@import url("./swiper-bundle.min.css");
+
+/* Import main style */
+@import url("./theme/main.min.purge.css");
+@import "swiper/css/virtual";
+@import "swiper/css";
+@import "swiper/css/thumbs";
+@import "swiper/css/effect-fade";
+
