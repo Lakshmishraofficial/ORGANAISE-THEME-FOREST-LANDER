@@ -83,7 +83,7 @@ export default function Integrations() {
                         </p>
                       </div>
                       <Link
-                        href={`/page-integrations`}
+                        href="#"
                         className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
                       >
                         <span>Explore</span>

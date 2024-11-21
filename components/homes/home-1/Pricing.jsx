@@ -105,7 +105,7 @@ export default function Pricing() {
                 </div>
               </div>
               <Link
-                href={`/page-pricing`}
+                href="#"
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
                 style={{
                   transform: "translateY(0.0097341px)",

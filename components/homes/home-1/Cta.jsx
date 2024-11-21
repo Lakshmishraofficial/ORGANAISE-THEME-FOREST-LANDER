@@ -90,7 +90,7 @@ export default function Cta() {
                 Create pre-approved templates and lock all legal information.
               </p>
               <Link
-                href={`/page-pricing`}
+                href="#"
                 className="btn btn-md h-48px lg:h-56px min-w-150px btn-primary text-white mt-2"
               >
                 <span>Try it now</span>

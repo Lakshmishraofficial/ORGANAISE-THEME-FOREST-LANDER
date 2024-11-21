@@ -55,7 +55,7 @@ export default function Integretion() {
                         </p>
                       </div>
                       <Link
-                        href={`/page-integrations`}
+                        href="#"
                         className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
                       >
                         <span>Explore</span>
@@ -66,7 +66,7 @@ export default function Integretion() {
                 ))}
               </div>
               <Link
-                href={`/page-integrations`}
+                href="#"
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow dark:text-white"
               >
                 <span>Explore all integrations</span>

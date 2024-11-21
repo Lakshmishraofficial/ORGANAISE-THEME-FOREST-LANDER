@@ -101,8 +101,8 @@ export default function Features() {
                                     pricing tables. You can also customize your
                                     own dynamic versions.
                                   </p>
-                                 <Link
-                                    href="/page-features"
+                                  <Link
+                                    href="#"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
                                     <span>Let's find out</span>
@@ -191,8 +191,8 @@ export default function Features() {
                                     lock all legal information to prevent costly
                                     mistakes.
                                   </p>
-                                <Link
-                                    href="/page-features"
+                                  <Link
+                                    href="#"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
                                     <span>Let's find out</span>
@@ -237,7 +237,7 @@ export default function Features() {
                                     eliminate Tool errors.
                                   </p>
                                   <Link
-                                    href="/page-features"
+                                    href="#"
                                     className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
                                   >
                                     <span>Let's find out</span>
