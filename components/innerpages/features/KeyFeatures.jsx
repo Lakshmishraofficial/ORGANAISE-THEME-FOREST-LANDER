@@ -43,7 +43,7 @@ export default function KeyFeatures() {
                             </div>
                           </div>
                           <Link
-                            href={`/page-features`}
+                            href="#"
                             className="position-cover"
                           ></Link>
                         </div>

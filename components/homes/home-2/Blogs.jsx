@@ -26,7 +26,7 @@ export default function Blogs() {
                       <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-white dark:bg-gray-800">
                         <Link
                           className="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1"
-                          href={`/blog`}
+                          href="#"
                           style={{ borderRadius: 8 }}
                         >
                           {article.category}
@@ -40,17 +40,14 @@ export default function Blogs() {
                             alt={article.imgAlt}
                           />
                           <Link
-                            href={`/blog-details/${article.id}`}
+                            href="#"
                             className="position-cover"
                             data-caption={article.imgAlt}
                           ></Link>
                         </figure>
                         <header className="panel vstack items-center gap-1 lg:gap-2 px-2">
                           <h3 className="h5 xl:h4 m-0 text-center m-0">
-                            <Link
-                              className="text-none"
-                              href={`/blog-details/${article.id}`}
-                            >
+                            <Link className="text-none" href="#">
                               {article.title}
                             </Link>
                           </h3>
@@ -65,7 +62,7 @@ export default function Blogs() {
                                   className="w-24px h-24px rounded-circle me-narrow"
                                 />
                                 <Link
-                                  href={`/blog-author/Amir Khan`}
+                                  href="#"
                                   className="text-none fw-bold text-dark dark:text-white"
                                 >
                                   {article.author}

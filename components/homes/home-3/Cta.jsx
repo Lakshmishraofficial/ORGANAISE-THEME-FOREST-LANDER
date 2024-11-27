@@ -95,7 +95,7 @@ export default function Cta() {
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h2 className="h3 sm:h1 xl:display-6 m-0">
-                Create stunning websites that fits{' '}
+                Create stunning websites that fits{" "}
                 <span className="text-primary">your needs.</span>
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
@@ -103,18 +103,18 @@ export default function Cta() {
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column">
                 <Link
-                  href={`/page-pricing`}
+                  href="#"
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
                   Try Lexend today
                 </Link>
-                <a
+                {/* <a
                   onClick={openContactModal}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
                   Contact sales
-                </a>
+                </a> */}
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">
                 14-day trial, no credit card required.

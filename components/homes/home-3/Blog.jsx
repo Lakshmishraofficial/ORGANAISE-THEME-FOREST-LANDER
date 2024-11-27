@@ -37,7 +37,7 @@ export default function Blog() {
                             alt={post.imageAlt}
                           />
                           <Link
-                            href={`/blog-details/${post.id}`}
+                            href="#"
                             className="position-cover"
                             data-caption={post.imageAlt}
                           ></Link>
@@ -46,7 +46,7 @@ export default function Blog() {
                           <h3 className="h5 xl:h4 m-0 text-center m-0">
                             <Link
                               className="text-none"
-                              href={`/blog-details/${post.id}`}
+                              href="#"
                             >
                               {post.title}
                             </Link>

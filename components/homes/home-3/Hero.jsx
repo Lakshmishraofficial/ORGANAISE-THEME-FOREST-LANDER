@@ -6,7 +6,7 @@ import { openContactModal } from "@/utlis/toggleContactModal";
 export default function Hero() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
-      <div className="position-absolute top-0 start-0 end-0 h-600px lg:h-screen bg-secondary dark:bg-gray-800 z-0" />
+      <div className="position-absolute top-0 start-0 end-0 h-600px lg:h-screen dark:bg-gray-800 z-0" />
       <div
         className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
         data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
@@ -170,18 +170,18 @@ export default function Hero() {
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column">
                 <Link
-                  href={`/page-pricing`}
+                  href="#"
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
                   Start free 14-day trial
                 </Link>
-                <a
+                {/* <a
                   onClick={openContactModal}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
                   Request a demo
-                </a>
+                </a> */}
               </div>
               <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0">
                 No credit card required.
