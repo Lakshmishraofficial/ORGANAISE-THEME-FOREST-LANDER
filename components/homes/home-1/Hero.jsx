@@ -173,7 +173,7 @@ export default function Hero() {
                     </h1>
                     <div
                       onClick={() => {
-                         window.parent.location.href = "/jobs";
+                        window.parent.location.href = `${process.env.NEXT_PUBLIC_PARENT_HOST}/jobs`;
                       }}
                       className="btn btn-md lg:btn-lg btn-primary text-white min-w-150px sm:mt-1 lg:mt-2"
                     >
@@ -204,7 +204,7 @@ export default function Hero() {
                         />
                       </div>
                       <span className="fs-7 sm:fs-6 fw-medium opacity-60">
-                        4.6k Hardworking Members
+                        Trusted by 15+ Clients
                       </span>
                     </div>
                   </div>

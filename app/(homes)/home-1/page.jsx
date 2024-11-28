@@ -9,6 +9,7 @@ import Timeline from "@/components/homes/home-1/Timeline";
 import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
+import Faq from "@/components/innerpages/Faq";
 export const metadata = {
   title:
     "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -26,9 +27,9 @@ export default function HomePage1() {
           <Integretion />
           <Facts />
           <Pricing />
-          <Feedback />
-          <Timeline />
-          <Team />
+          <Faq/>
+          {/* <Timeline /> */}
+          {/* <Team /> */}
           <Cta />
         </div>
         {/* <Footer1 /> */}

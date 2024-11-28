@@ -17,13 +17,10 @@ export default function Features() {
             data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});"
           >
             <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
-              <h2 className="h3 lg:h2 xl:h1 m-0">
-                Smart features for your business
-              </h2>
+              <h2 className="h3 lg:h2 xl:h1 m-0">Your All-in-One Platform</h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                Helping you streamline your workflows, connect with the right
+                talent, and achieve your goals with ease and efficiency.
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
@@ -38,30 +35,28 @@ export default function Features() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Audit Trial</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Start-Ups</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "uc-active" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">SMBs</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "uc-active" : ""}`}
                     onClick={() => setActiveTab(3)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">
-                      Control your Apps
-                    </a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Recruiters</a>
                   </li>
                   <li
                     className={`${activeTab == 4 ? "uc-active" : ""}`}
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Approvals</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Agencies</a>
                   </li>
                 </ul>
               </div>
@@ -91,15 +86,17 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Share tools quickly and confidently in
-                                    minutes
+                                    Launch and Scale
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    This powerfull tool eliminates the need to
-                                    leave Salesforce to get things done as I can
-                                    create a custom proposal with dynamic
-                                    pricing tables. You can also customize your
-                                    own dynamic versions.
+                                    As a start-up, your focus is on growth and
+                                    innovation. Organise provides the tools you
+                                    need to connect with top-tier professionals,
+                                    manage projects seamlessly, and stay on
+                                    budget. With a verified talent pool, and
+                                    in-built features to manage your project,
+                                    you can focus on what really matters—turning
+                                    your ideas into reality.
                                   </p>
                                   <Link
                                     href="#"
@@ -138,12 +135,19 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Connect every part of your entire business
+                                    Streamline Operations and Maximize
+                                    Efficiency
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Keep data consistent, with native CRM
-                                    integrations that streamline your entire
-                                    Tool workflow.
+                                    Small and medium businesses require
+                                    streamlined workflows to stay competitive.
+                                    Organise offers scalable solutions tailored
+                                    to your needs, including verified
+                                    professionals, project management tools, and
+                                    AI-driven insights. Whether you're expanding
+                                    your team or improving operations, our
+                                    platform makes it easy to achieve your goals
+                                    without any hassle (or distractions).
                                   </p>
                                   <a
                                     href="#"
@@ -182,14 +186,17 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Maintain compliance and control your apps
+                                    Supercharge your Hiring Process
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Improve security and trust with built-in
-                                    legally binding e-Signatures. Create
-                                    pre-approved templates, content blocks and
-                                    lock all legal information to prevent costly
-                                    mistakes.
+                                    Recruiters need access to reliable, verified
+                                    talent to build teams quickly and
+                                    efficiently. Organise equips you with
+                                    features like interview scheduling,
+                                    resume-screening, personalized
+                                    talent-matching, in-built communication
+                                    tools, and detailed analytics to ensure that
+                                    every hire is perfectly scored.
                                   </p>
                                   <Link
                                     href="#"
@@ -228,13 +235,19 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Review quickly and confidently
+                                    Deliver Exceptional Results with Ease
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Get real-time access to approvals, comments
-                                    and version tracking. Smart features like
-                                    variables and conditional logic help you
-                                    eliminate Tool errors.
+                                    Agencies often juggle with multiple, big
+                                    projects and clients simultaneously, and at
+                                    the same time, their delivery must be of the
+                                    highest quality. Organise not only offers
+                                    powerful tools for team collaboration,
+                                    custom workflows, and real-time analytics on
+                                    all your projects, but also features like
+                                    dedicated workspaces and project-specific
+                                    tools to help manage large-scale operations
+                                    with ease.
                                   </p>
                                   <Link
                                     href="#"

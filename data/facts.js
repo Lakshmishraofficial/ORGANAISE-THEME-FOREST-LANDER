@@ -23,7 +23,7 @@ export const facts = [
   {
     id: 4,
     count: 17,
-    description: "Taux convertion",
+    description: "Tax convertion",
     animation:
       "onview: -100; textContent: [0, 17]; round: 1; easing: linear; duration: 1200;",
     suffix: "%",
@@ -50,8 +50,8 @@ export const factItems = [
 
 export const panelsData = [
   {
-    value: 2014,
-    text: "Lexend founded.",
+    value: 2020,
+    text: "Organaise founded.",
     animationData:
       "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
   },

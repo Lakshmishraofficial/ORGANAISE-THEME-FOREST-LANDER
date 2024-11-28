@@ -11,7 +11,7 @@ export default function Facts() {
       className="about-values section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9 bg-secondary dark:bg-gray-800">
-        <div className="container max-w-lg">
+        <div className="container max-w-7xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 lg:gap-6 xl:gap-8">
               <h2
@@ -19,7 +19,7 @@ export default function Facts() {
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                Our Values it’s Simple!
+                Organise’s Values
               </h2>
               <div
                 className="panel vstack g-2 lg:gap-4"
@@ -29,7 +29,7 @@ export default function Facts() {
                   className="panel"
                   style={{ transform: "translateY(0px)", opacity: 1 }}
                 >
-                  <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between text-center">
+                  <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-3 col-match g-2 lg:g-4 justify-between text-center">
                     {panelData.map((panel) => (
                       <div key={panel.id}>
                         <div className="panel vstack items-center gap-2 p-4 lg:py-6 rounded-2 bg-white dark:bg-gray-800">

@@ -22,14 +22,14 @@ export default function Faq() {
                     Everything you need to know about the product and billing.
                     Can’t find the answer you’re looking for?{" "}
                     <br className="d-none lg:d-block xl:d-none" />
-                    Please{" "}
+                    {/* Please{" "}
                     <Link
                       className="uc-link border-bottom border-gray-300 dark:text-white text-none"
-                      href={`/page-contact`}
+                      href="#"
                       style={{ paddingBottom: 2 }}
                     >
                       Chat to our friendly team.
-                    </Link>
+                    </Link> */}
                   </p>
                 </div>
               </div>

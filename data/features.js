@@ -4,27 +4,36 @@ export const panelData = [
     lightIcon: "/assets/images/template/icon-diamond.svg",
     darkIcon: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
-    title: "Make an impact",
+    title: "No Commission",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "We believe talent deserves its due. That’s why we offer a commission-free model, ensuring 100% of earnings go directly to the professionals.",
   },
   {
     id: 2,
     lightIcon: "/assets/images/template/icon-trophy.svg",
     darkIcon: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Trust",
     description:
-      "Teams are masters of their craft though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Verified profiles, transparent processes, and reliable tools create a foundation of trust between clients and professionals.",
   },
   {
     id: 3,
     lightIcon: "/assets/images/template/icon-crown.svg",
     darkIcon: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
-    title: "Empathy",
+    title: "Professionalism",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we provide a better experience for all.",
+      "Our platform is designed to elevate professionalism with streamlined workflows, high-quality collaborations, and expert support.",
+  },
+  {
+    id: 4,
+    lightIcon: "/assets/images/template/icon-globe.svg",
+    darkIcon: "/assets/images/template/icon-globe-dark.svg",
+    altText: "impact-icon",
+    title: "Transparency",
+    description:
+      "We know how vital it is to have clarity and open communication. Which is why Organise ensures to always have clear pricing structures and reliable communication tools so what you see is what you get. No surprises.",
   },
 ];
 

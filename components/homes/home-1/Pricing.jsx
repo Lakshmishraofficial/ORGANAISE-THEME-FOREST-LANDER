@@ -9,7 +9,7 @@ export default function Pricing() {
       className="pricing-tiers section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-7xl">
           <div className="section-inner panel">
             <div
               className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8"
@@ -23,13 +23,17 @@ export default function Pricing() {
                   No extra charges. No hidden fees.
                 </p>
               </div>
-              <div className="panel w-100 lg:max-w-900px border rounded-3 overflow-hidden">
-                <div className="row child-cols-12 sm:child-cols-6 col-match justify-between g-0">
+              <div className="panel w-100 lg:max-w-7xl border rounded-3 overflow-hidden">
+                <div className="row child-cols-12 sm:child-cols col-match justify-between g-0">
                   {pricingTiers.map((tier, index) => (
                     <div key={index}>
                       <div
                         className={`tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded-0 ${
-                          tier.popular ? "bg-secondary dark:bg-gray-800" : ""
+                          tier.popular
+                            ? "bg-secondary dark:bg-gray-800"
+                            : tier.premium
+                            ? "bg-primary-100 dark:bg-primary-700"
+                            : ""
                         }`}
                       >
                         {tier.popular && (
@@ -41,16 +45,16 @@ export default function Pricing() {
                           <h3 className="title h5 sm:h4 dark:text-white">
                             {tier.title}
                           </h3>
-                          <p className="desc dark:text-whiteopacity-70 dark:opacity-80">
+                          {/* <p className="desc dark:text-whiteopacity-70 dark:opacity-80">
                             {tier.description}
-                          </p>
+                          </p> */}
                         </div>
                         <div className="panel">
                           <div className="panel vstack gap-narrow">
                             <h5 className="title h3 sm:h2 m-0 dark:text-white">
                               {tier.price}
                             </h5>
-                            <span className="fs-7 opacity-70">
+                            <span className="fs-7 mt-3 opacity-70">
                               {tier.priceInfo}
                             </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">

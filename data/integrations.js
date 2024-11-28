@@ -1,55 +1,55 @@
 export const integrations = [
   {
     id: 1,
-    name: "Slack",
+    name: "Access Verified Professionals",
     category: "Productivity",
     description:
-      "Notify your teammates of the latest activities with instant Slack messages.",
+      "Connect with a pool of trusted and verified talent for your projects.",
     imageUrl: "/assets/images/template/tool-slack.svg",
     imageAlt: "Slack",
   },
   {
     id: 2,
-    name: "Salesforce",
+    name: "Professional Tools in One Place",
     category: "CRM",
     description:
-      "Leave a lasting impression all done inside Salesforce CPQ platform.",
+      "Streamline your workflows with features like messaging, project management, and invoicing.",
     imageUrl: "/assets/images/template/tool-salesforce.svg",
     imageAlt: "Salesforce",
   },
   {
     id: 3,
-    name: "Stripe",
+    name: "Seamless Collaboration",
     category: "Payment",
     description:
-      "Collect credit card and ACH payments within your sales documents.",
+      "Work efficiently with integrated tools for communication, file sharing, and scheduling.",
     imageUrl: "/assets/images/template/tool-stripe.svg",
     imageAlt: "Stripe",
   },
   {
     id: 4,
-    name: "PayPal",
+    name: "Transparent and Secure Platform",
     category: "Payment",
     description:
-      "Provide a world-class checkout experience for your customers.",
+      "Enjoy a reliable platform with verified profiles, ensuring smooth and trusted partnerships.",
     imageUrl: "/assets/images/template/tool-paypal.svg",
     imageAlt: "PayPal",
   },
-  {
-    id: 5,
-    name: "HubSpot",
-    category: "CRM",
-    description:
-      "Expand the ROI from your CRM and unlock easy generation and capabilities.",
-    imageUrl: "/assets/images/template/tool-hubspot.svg",
-    imageAlt: "HubSpot",
-  },
-  {
-    id: 6,
-    name: "Zapier",
-    category: "Integration platforms",
-    description: "Create custom, automated workflows using your favorite Zaps.",
-    imageUrl: "/assets/images/template/tool-zapier.svg",
-    imageAlt: "Zapier",
-  },
+  // {
+  //   id: 5,
+  //   name: "HubSpot",
+  //   category: "CRM",
+  //   description:
+  //     "Expand the ROI from your CRM and unlock easy generation and capabilities.",
+  //   imageUrl: "/assets/images/template/tool-hubspot.svg",
+  //   imageAlt: "HubSpot",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Zapier",
+  //   category: "Integration platforms",
+  //   description: "Create custom, automated workflows using your favorite Zaps.",
+  //   imageUrl: "/assets/images/template/tool-zapier.svg",
+  //   imageAlt: "Zapier",
+  // },
 ];
