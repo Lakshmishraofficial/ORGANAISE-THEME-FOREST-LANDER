@@ -167,16 +167,18 @@ export default function Hero() {
                     data-anime="targets: >*; translateY: [24, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                   >
                     <h1 className="h2 sm:h1 lg:display-6 xl:display-4 mt-4 sm:mt-0">
-                      Easy project managment{" "}
+                      Hire and collaborate
                       <br className="d-none sm:d-block" />
-                      of any complexity
+                      on projects easily.
                     </h1>
-                    <Link
-                      href="#"
+                    <div
+                      onClick={() => {
+                         window.parent.location.href = "/jobs";
+                      }}
                       className="btn btn-md lg:btn-lg btn-primary text-white min-w-150px sm:mt-1 lg:mt-2"
                     >
                       Try it out
-                    </Link>
+                    </div>
                     <div className="hstack justify-center gap-2 mt-1 sm:mt-2">
                       <div className="hstack justify-center gap-0">
                         <Image
