@@ -82,11 +82,10 @@ export default function Cta() {
             >
               <h2 className="h3 sm:h1 xl:display-6 m-0">
                 Get started with <br />
-                Lexend today
+                Organise Today
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
-                With native CRM integrations that streamline your entire Tool
-                workflow.
+                And watch your earnings grow
               </p>
               <form
                 onSubmit={(e) => e.preventDefault()}
@@ -101,12 +100,14 @@ export default function Cta() {
                   />
                 </div>
                 <div className="col-12 sm:col-auto">
-                  <Link
-                    href="#"
+                  <div
+                    onClick={() => {
+                       window.parent.location.href = `${process.env.NEXT_PUBLIC_PARENT_HOST}/signup/freelancer`;
+                    }}
                     className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
                   >
-                    Start free trial
-                  </Link>
+                    Signup
+                  </div>
                 </div>
               </form>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">

@@ -2,7 +2,8 @@ import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import Blogs from "@/components/homes/home-2/Blogs";
 import Cta from "@/components/homes/home-2/Cta";
-import Faq from "@/components/homes/home-2/Faq";
+// import Faq from "@/components/homes/home-2/Faq";
+import Faq2 from "@/components/homes/home-2/Faq2";
 import Features from "@/components/homes/home-2/Features";
 import Feedback from "@/components/homes/home-2/Feedback";
 import Hero from "@/components/homes/home-2/Hero";
@@ -24,8 +25,8 @@ export default function HomePage2() {
           <Hero />
           <Features />
           <KeyFeatures />
-          <Pricing />
-          <Faq />
+          {/* <Pricing /> */}
+          <Faq2 />
           <Feedback />
           <Blogs />
           <Cta />

@@ -42,17 +42,17 @@ export const features = [
     id: 4,
     imgSrc: "/assets/images/template/feature-01.svg",
     imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    title: "Manage Your Projects Like a Pro",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Easily organize and track your freelance projects in one place. From communication to invoicing, streamline every step and focus more on delivering your best work.",
   },
   {
     id: 5,
     imgSrc: "/assets/images/template/feature-02.svg",
     imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    title: "Showcase Your Skills Seamlessly",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
+      "Create a standout profile with customizable portfolios and built-in tools to highlight your expertise. Impress clients with a professional presentation of your talents.",
     linkText: "See all integrations",
     linkHref: "#",
   },
@@ -60,9 +60,9 @@ export const features = [
     id: 6,
     imgSrc: "/assets/images/template/feature-03.svg",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    title: "Collaborate Effortlessly",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.",
+      "Stay connected with your clients using integrated messaging and task management tools. Manage feedback, share updates, and keep everything on track without switching between platforms.",
   },
 ];
 
@@ -71,28 +71,28 @@ export const features2 = [
     icon: "unicon-document",
     title: "Proposals",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Submit professional proposals in minutes using pre-built, customizable templates to impress clients.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Invoicing",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Simplify your payment process with integrated invoicing tools to track earnings and ensure timely payments.",
     backgroundColor: "bg-primary text-white",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "Document Management",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Organize all project-related files in secure folders, ensuring easy access during client interactions.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Calendar Integration",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "Stay ahead of deadlines with built-in scheduling and automated reminders to keep your projects on track.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
 ];

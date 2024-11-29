@@ -73,6 +73,49 @@ export const accordionItems = [
   },
 ];
 
+export const accordionItemsFaq2 = [
+  {
+    id: 1,
+    question: "How is Organise different from other platforms?",
+    answer:
+      "Organise offers a commission-free model, verified profiles, and powerful tools for seamless project management, ensuring freelancers and clients keep more and achieve more.",
+    controls: "uc-accordion-24",
+    expanded: true,
+  },
+  {
+    id: 2,
+    question: " Do I need technical skills to use Organise?",
+    answer:
+      "No, our platform is designed to be intuitive and user-friendly, making it easy for anyone to navigate and succeed.",
+    controls: "uc-accordion-26",
+    expanded: false,
+  },
+  {
+    id: 3,
+    question: "How does the verification process work?",
+    answer:
+      "Our team conducts interviews and assessments to ensure all freelancers and clients meet quality standards, adding trust and reliability to every interaction.",
+    controls: "uc-accordion-28",
+    expanded: false,
+  },
+  {
+    id: 4,
+    question: "Can I manage multiple projects on Organise?",
+    answer:
+      "Absolutely! With features like shared calendars, document storage, and real-time communication tools, managing multiple projects has never been easier.",
+    controls: "uc-accordion-30",
+    expanded: false,
+  },
+  {
+    id: 5,
+    question: "What tools are available to help freelancers grow?",
+    answer:
+      "Freelancers have access to a learning platform with curated courses, workshops, and resources tailored to improve skills and stay competitive.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+];
+
 export const accordionItems2 = [
   {
     id: 23,

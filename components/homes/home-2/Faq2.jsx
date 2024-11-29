@@ -2,7 +2,7 @@ import Accordion from "@/components/common/Accordion";
 import { accordionItems } from "@/data/faq";
 import React from "react";
 
-export default function Faq() {
+export default function Faq2() {
   return (
     <div id="faq" className="section panel overflow-hidden">
       <div className="section-outer panel pb-6 xl:pb-9">
@@ -15,7 +15,7 @@ export default function Faq() {
               className="panel"
               style={{ transform: "translateY(0px)", opacity: 1 }}
             >
-              <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
+              <h2 className="h4 sm:h3 lg:h2 mt-4 text-center">
                 Frequently asked questions:
               </h2>
               <div className="panel mt-4 sm:mt-6 lg:mt-8 p-3 sm:p-4 xl:p-6 lg:max-w-750px xl:w-auto m-auto rounded-2 bg-secondary dark:bg-gray-800">

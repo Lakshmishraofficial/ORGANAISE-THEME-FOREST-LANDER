@@ -164,11 +164,11 @@ export default function Hero() {
                     CRM Tool Workflow
                   </span>
                   <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
-                    Streamline your Tool Workflow.
+                    Streamline your freelance workflow.
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Keep data consistent, with native CRM integrations that
-                    streamline your entire Tool workflow.
+                    Your Freelance Journey Starts Here—Showcase Your Skills,
+                    Land Top Projects, and Keep 100% of Your Earnings.
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
@@ -183,16 +183,18 @@ export default function Hero() {
                       />
                     </div>
                     <div className="col-12 sm:col-auto">
-                      <Link
-                        href="#"
+                      <div
+                        onClick={() => {
+                          window.parent.location.href = `${process.env.NEXT_PUBLIC_PARENT_HOST}/signup/freelancer`;
+                        }}
                         className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
                       >
-                        Start free trial
-                      </Link>
+                        Sign up
+                      </div>
                     </div>
                   </form>
                   <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                    No credit card required.
+                    Trusted by 2500+ Freelancers
                   </p>
                 </div>
               </div>
